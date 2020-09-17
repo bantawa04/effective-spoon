@@ -1,0 +1,73 @@
+.single-post {
+  .post-content{
+    @extend .px-4, .py-3;
+    background-color: white;
+    .post-info{
+      font-family: "Roboto Slab", sans-serif;
+      font-size: 0.875rem;
+      color: $pry-text-color ;
+      a{
+        color: #303030 ;
+        &:hover{
+          color: $pry-color;
+          text-decoration: none;
+        }
+      }
+      @extend .my-3;
+      span{
+        a{
+          @extend .ml-1;
+        }
+        &:not(:last-child){
+          @extend .mr-2;
+        }
+      }
+    }
+    .post-title{
+      font-size: 1.75rem;
+    }
+  @media (min-width: 675px) {
+    .post-img {
+      width: 100%;
+      min-height: 300px;
+      height: 300px;
+      object-fit: cover;
+    }
+  }
+  }
+
+  .post-comment-wrapper{
+    background: white;
+    @extend .px-3, .py-3, .mt-5;
+    .comments{
+      .comment-counter, .comment-form-title{
+        font-size:1.625rem ;
+        margin: 1.25rem 0;
+        border-bottom: 1px solid #ebebeb;
+        padding-bottom: 1rem;
+      }
+      .comment-by, .reply-by{
+        font-size:1.125rem;
+        @extend .mb-1;
+      }
+      .comment-info{
+        font-size: 0.875rem;
+        font-style: italic;
+        color: $sec-color;
+        @extend .mb-1;
+      }
+    }
+
+    .comment-form{
+      legend{
+        font-size: 0.875rem;
+        font-weight: bold;
+        color: $pry-text-color;
+      }
+      p{
+        font-size: 0.875rem;
+        @extend .mb-3;
+      }
+    }
+  }
+}

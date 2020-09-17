@@ -1,0 +1,24 @@
+.error-wrapper {
+  @extend .text-center, .my-5;
+  padding: 3rem 0;
+  background: white;
+
+  .error-code {
+    font-size: 5.25rem;
+  }
+
+  .to-home {
+    color: white;
+    background-color: $pry-color;
+    border-color: $pry-color;
+    @extend .mt-4;
+    border-radius: 2px;
+    font-size: 0.875rem;
+
+    &:hover {
+      color: white;
+      background-color: #303030;
+      border-color: #303030;
+    }
+  }
+}

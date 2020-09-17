@@ -1,0 +1,17 @@
+.page-wrapper{
+  @extend .px-4, .py-3;
+  background: white;
+  .about-title{
+    font-size: 1.625rem;
+    @extend .mb-3;
+  }
+  .author-image{
+    width: 100%;
+    min-height: 350px;
+    height: 350px;
+    object-fit: cover;
+  }
+  .author-content{
+    @extend .mt-3;
+  }
+}

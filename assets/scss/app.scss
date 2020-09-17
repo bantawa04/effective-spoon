@@ -1,0 +1,47 @@
+$pry-color: #41afa9;
+$foo-color: #202020;
+$bg-color: #ededed;
+$sec-color: #959595;
+$pry-text-color: #505050;
+
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+
+$theme-colors: (
+  pry-color: #41afa9,
+  foo-color: #202020,
+  bg-color: #ededed,
+  sec-color: #959595
+);
+
+@import "~bootstrap";
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.125rem;
+  background-color: $bg-color;
+}
+header {
+  //padding: 0.5em 0;
+  background-color: #ffffff;
+}
+
+.form-control {
+  border-radius: 2px;
+
+  &:focus {
+    border: 1px solid #00ada7;
+    outline: none;
+    box-shadow: none;
+  }
+}
+
+@import "nav";
+@import "typography";
+@import "home";
+@import "footer";
+@import "post";
+@import "error";
+@import "about";
+@import "recent";
+@import "contact";

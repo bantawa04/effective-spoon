@@ -1,0 +1,28 @@
+.logo-wrapper {
+  h1 {
+    margin-bottom: 0.25rem;
+    font-size: 1.5rem;
+    color: #303030;
+  }
+
+  p {
+    font-size: 1rem;
+    color: $sec-color;
+    margin: 0;
+  }
+}
+
+.nav-wrapper {
+  a {
+    font-family: "Roboto Slab", sans-serif;
+    font-weight: 400;
+    color: $pry-text-color !important;
+    @extend .px-4;
+    &:hover, &:active {
+      color: $pry-color;
+    }
+  }
+  .nuxt-link-exact-active{
+    color: $pry-color !important;
+  }
+}

@@ -1,0 +1,120 @@
+.home-wrapper, .single-post, .page-wrapper, .container-wrapper{
+  @extend .my-5;
+
+  .main-content {
+    @extend .p-5;
+    background: white;
+
+    .featured-article {
+      .article-title {
+        margin: 0.5rem 0;
+      }
+
+      .article-info {
+        margin: 0.5rem 0;
+        font-size: 1rem;
+      }
+
+      .article-read-more {
+        font-size: 14px;
+      }
+
+      padding-bottom: 2em;
+      border-bottom: 1px solid $sec-color;
+    }
+  }
+
+  .recent-article {
+    @extend .my-5;
+
+    .recent-article-info {
+      font-size: 1rem;
+    }
+
+    .recent-read-link, .recent-read-link:visited {
+      color: $pry-color;
+      font-size: 14px;
+    }
+  }
+
+  .search-wrapper, .sidebar-widget {
+    @extend .py-5, .px-4, .mb-5;
+    background: white;
+  }
+
+  .sidebar-widget {
+    .widget-title {
+      position: relative;
+      font-size: 1.3125rem;
+      margin-bottom: 1.5rem;
+
+      &:after {
+        content: "";
+        width: 90px;
+        height: 1px;
+        background: $pry-color;
+        position: absolute;
+        left: 0;
+        bottom: -8px;
+      }
+    }
+
+    .widget-button {
+      font-size: 0.875rem;
+    }
+  }
+
+  .newsletter-wrapper {
+    p {
+      font-size: 0.875rem;
+    }
+
+    .widget-button {
+      border-radius: 2px;
+    }
+  }
+
+  .sidebar-recent-post {
+    ul{
+      list-style: none;
+      padding: 0;
+      li{
+        @extend .mb-4;
+      }
+    }
+    .post-title {
+      font-size: 0.875rem;
+    }
+
+    .post-date {
+      font-size: 0.875rem;
+      font-style: italic;
+    }
+  }
+
+  .b-pagination{
+    .page-link{
+      color: $pry-color;
+    }
+    .active button{
+      background: $pry-color;
+      border-color: $pry-color;
+      color: white;
+    }
+  }
+}
+.btn-type-1{
+  color: white;
+  background-color: $pry-color;
+  border-color: $pry-color;
+  @extend .mt-4;
+  border-radius: 2px;
+  font-size: 0.875rem;
+
+  &:hover {
+    color: white;
+    background-color: #303030;
+    border-color: #303030;
+  }
+}
+

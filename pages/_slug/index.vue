@@ -1,7 +1,7 @@
 <template>
   <b-container class="single-post">
     <b-row>
-      <b-col cols="8" sm="12 " md="8" lg="8" class="post-wrapper">
+      <b-col sm="12 " md="8" lg="8" class="post-wrapper">
         <b-row class="post-content">
           <b-img-lazy src="https://picsum.photos/600/400/?image=90" alt="Image 4" class="post-img"/>
           <p class="post-info">
@@ -142,7 +142,7 @@
           </b-col>
         </b-row>
       </b-col>
-      <b-col cols="4" sm="12 " md="4" lg="4" class="aside">
+      <b-col sm="12 " md="4" lg="4" class="aside">
         <Search/>
         <Newsletter/>
         <RecentPosts/>
