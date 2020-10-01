@@ -1,0 +1,28 @@
+.content-wrapper {
+  @extend .px-4, .py-3;
+  background: white;
+}
+
+.btn-type-1 {
+  @extend .btn;
+  color: white;
+  background-color: $pry-color;
+  border-color: $pry-color;
+  @extend .mt-4;
+  border-radius: 2px;
+  font-size: 0.875rem;
+
+  &:hover {
+    color: white;
+    background-color: #303030;
+    border-color: #303030;
+  }
+}
+.form-title{
+  font-size: 1.75rem;
+}
+
+legend, label{
+  font-size: 0.875rem !important;
+  font-weight: bold;
+}

@@ -1,14 +1,6 @@
 .contact-wrapper{
-  @extend .px-4, .py-3;
-  background: white;
-  .form-title{
-    font-size: 1.75rem;
-  }
+  @extend .content-wrapper;
   .contact-form{
     @extend .my-5;
-    legend{
-      font-size: 0.875rem;
-      font-weight: bold;
-    }
   }
 }

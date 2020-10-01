@@ -5,10 +5,10 @@
         id="inline-form-input-name"
         placeholder="Search"
         class="col-10 mr-2"
-      ></b-input>
+      />
 
-      <b-button variant="pry-color ">
-        <b-icon-search/>
+      <b-button variant="pry-color">
+        <b-icon-search />
       </b-button>
     </b-form>
   </div>
@@ -16,7 +16,7 @@
 
 <script>
 export default {
-  name: 'search'
+  name: 'Search'
 }
 </script>
 

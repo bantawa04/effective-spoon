@@ -35,7 +35,7 @@ header {
     box-shadow: none;
   }
 }
-
+@import "layout";
 @import "nav";
 @import "typography";
 @import "home";
@@ -45,3 +45,4 @@ header {
 @import "about";
 @import "recent";
 @import "contact";
+

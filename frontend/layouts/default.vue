@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Navigation />
+    <Navigation :is-admin="false" />
     <Nuxt />
     <Footer />
   </div>
